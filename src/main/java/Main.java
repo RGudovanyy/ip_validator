@@ -69,22 +69,22 @@ public class Main {
      */
     private static void validateAdresses(int[] firstAddress, int[] secondAddress){
         if(firstAddress[0] > secondAddress[0]) {
-            System.out.println("Первый октет второго адреса больше первого октета первого адреса");
+            System.out.println("Первый октет первого адреса больше первого октета второго адреса");
             System.exit(1);
         }
         else {
             if(firstAddress[1] > secondAddress[1]) {
-                System.out.println("Второй октет второго адреса больше второго октета первого адреса");
+                System.out.println("Второй октет первого адреса больше второго октета второго адреса");
                 System.exit(1);
             }
             else {
                 if(firstAddress[2] > secondAddress[2]) {
-                    System.out.println("Третий октет второго адреса больше третьего октета первого адреса");
+                    System.out.println("Третий октет первого адреса больше третьего октета второго адреса");
                     System.exit(1);
                 }
                 else {
                     if(firstAddress[3] > secondAddress[3]){
-                        System.out.println("Четвертый октет второго адреса больше четвертого октета первого адреса");
+                        System.out.println("Четвертый октет первого адреса больше четвертого октета второго адреса");
                         System.exit(1);
                     }
                 }
